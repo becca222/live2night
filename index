@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bons plans concerts & DJ sets près de chez vous | Live2night</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="title">
+				<div class="logo">
+
+						<img src="C:\Users\gros\Videos\projets\live.png">
+				</div>
+				<div class="navbar">
+					<a href="concept.html" class="menu">Concept</a>
+					<a href="offres.html" class="menu">Nos offres</a>
+				</div>
+			</div>
+		</header>
+		<pre></pre>
+		<section class="main-header">
+			<div class="container">
+
+				<h1>Ce soir, plutôt...</h1>
+			</div>
+			<pre></pre>
+			<div class="bloc">
+				<div class="square">
+					<!-- image pop up description ou en savoir + Et liaison des 2 options avec le mot OU -->
+					<h2>Live<br>(concert, ...)</h2>
+				</div>
+				<div class="square-right">
+					<h2>Dj<br>Sets</h2>
+				</div>
+				<div id="presentation">
+					<h3>Quelques exemples de ce que nous proposons</h3>
+				</div>
+				<div class="row">
+					<a class="item" href="#">
+						<div class="circle-left">
+						</div>
+					<a class="item" href="#">
+						<div class="circle-center">
+						</div>
+					<a class="item" href="#">
+						<div class="circle-right">
+						</div>
+				<div id="presentation2">
+					<h3>Sur les toits de Paris, dans une villa avec piscine ou,<pre></pre>où passerez-vous votre prochaine soirée ?</h3>
+				</div>
+				<a href="offres.html" class="button" target="_blank">allez, je craque</a>
+				<!-- Bouton : allez, je craque -->
+			</div>
+		</section>
+		<footer>
+			<!-- Logo + lien contact (mail) et + newsletter -->
+			<p>Copyright 2019 Live 2 Night - Toute repoduction interdite</p>
+		</footer>
+	</body>
