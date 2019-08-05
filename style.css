@@ -1,0 +1,351 @@
+body {
+	background-color: #00ffff;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+footer {
+  height: 80px;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-top: 2px solid #AAA;
+}
+
+.title {
+	width: 100%;
+	height: 6em;
+	background-color: white;
+	pading-top: 3em;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.logo
+{
+ float: left;
+ position: absolute;
+ width: 300px;
+ height: 200px;
+ border-radius: 50%;
+ top: -10px;
+ left: 50px;
+ margin: 10px;
+}
+
+#logo
+{
+  display:inline-block;
+  box-sizing:border-box;
+  width:97px;
+  min-height:36px;
+  margin-left:86px;
+  margin-right:335px;
+  color:white;
+  text-decoration:none;
+  font-size:36px;
+  font-family: 'Snell Roundhand', cursive;
+  color:#010000;
+  padding-top:10px;
+  letter-spacing:2.1px;
+}
+
+.navbar {
+  float: right;
+  display: block;
+  color: black;
+  margin-top: 0.5em;
+}
+
+.menu{
+   font-size: 12px;
+  white-space: nowrap;
+  padding: 0 25px;
+  letter-spacing: normal;
+  line-height: 61px;
+  height: 61px;
+  margin-right:0.6px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:focus {
+  color: #ddc192;
+}
+a:hover {
+  text-decoration: none;
+  color: #ddc192;
+}
+a:link {
+  text-decoration: none;
+}
+
+span {
+  color: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+section {
+  width: auto;
+  min-height: 300px;
+  a:hover {
+    text-decoration: none;
+  }
+
+}
+
+#main-header {
+	background-color: #00ffff;
+	font-size: 33px;
+	margin: 0px;
+	padding: 210px 0;
+	width: 100%;
+	text-align: center;
+	color: #ffff;
+	text-transform: uppercase;
+}
+
+.main-header {
+  background: linear-gradient(121deg, #F2DDDE, #00ffff);
+  font-size: 19px;
+  margin: 0px;
+  padding: 68px 0;
+  width: 100%;
+  text-align: center;
+  color: #ffff;
+  text-transform: uppercase;
+}
+
+#container {
+	max-width: 1190px;
+	margin: auto;
+	background-color: #00ffff;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.main-header h2 {
+
+	margin: 0px auto;
+	text-align: center;
+	color: #ffff;
+	text-transform: uppercase;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: Inconsolata, monospace;
+  font-weight: 50;
+  font-size: 3.6vmin;
+  text-shadow: 0px 0px 9px #777;
+  color: white;
+}
+
+.bloc {
+  position: relative;
+  background-color: white;
+  width: 100%;
+}
+
+.bloc::after {
+  content: '';
+  display: block;
+  padding-bottom: 7%;
+}
+
+.bloc .content {
+  position: absolute;
+  width: 100%;
+  height:100%;
+}
+
+.square {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(-45deg, #F2DDDE, #00ffff);
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
+  top: 10%;
+  left: 32%;
+  border: 10px solid white;
+  }
+
+.square::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+
+.square .content {
+  position: absolute;
+  width: 100%;
+  height:100%;
+}
+
+.square-right {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(-45deg, #F2DDDE, #00ffff);
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
+  top: 10%;
+  left: 68%;
+  border: 10px solid white;
+}
+
+.square-right::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+
+.square-right .content {
+  position: absolute;
+  width: 100%;
+  height:100%;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: Inconsolata, monospace;
+  font-weight: 50;
+  font-size: 3.6vmin;
+  transform: translate(1%, 129%) rotate(-46deg);
+  text-shadow: 0px 0px 9px #777;
+  color: #fff;
+}
+
+#presentation {
+  position: relative;
+  top: 500px;
+  border-top: 5px solid #44ccb5;
+  background-color: RGBa(50, 240, 221, 0.15);
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: Inconsolata, monospace;
+  font-weight: 50;
+  font-size: 3.6vmin;
+  text-shadow: 0px 0px 9px #777;
+  color: white;
+}
+
+#circle-left {
+  z-index: 1000;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  right: -15%;
+  bottom: -640px;
+  background-image: url(https://cdn.pixabay.com/photo/2019/04/11/14/32/roofs-4119874_960_720.jpg);
+  border-radius: 100px;
+  transition: .3s ease-in-out;
+  background-size: cover;
+  border: 4px solid #f2ddde;
+}
+
+#circle-center {
+  z-index: 1000;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  right: -41%;
+  bottom: -330px;
+  background-image: url(https://cdn.pixabay.com/photo/2018/06/17/10/38/artist-3480274_960_720.jpg);
+  border-radius: 100px;
+  transition: .3s ease-in-out;
+  background-size: cover;
+  border: 4px solid #f2ddde;
+}  
+
+#circle-right {
+  z-index: 1000;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  right: -67%;
+  bottom: -24px;
+  background-image: url(https://images.unsplash.com/photo-1530649159659-c8beb2992433?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  border-radius: 100px;
+  transition: .3s ease-in-out;
+  background-size: cover;
+  border: 4px solid #f2ddde;
+}
+
+#presentation2 {
+  position: relative;
+  top: -40px;
+  background-color: RGBa(50, 240, 221, 0.15)
+}
+
+.button {
+  color: #009688;
+  background: #fff;
+  border: 1px solid #009688;
+  font-size: 17px;
+  padding: 7px 12px;
+  font-weight: normal;
+  margin: 6px 0;
+  margin-right: 12px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  min-width: 120px;
+}
+
+.button:hover, .button:active {
+  color:#fff;
+  background:#009688;
+}
+
+
+.circle-left {
+  z-index: 1000;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  right: -15%;
+  bottom: -540px;
+  background-image: url(https://cdn.pixabay.com/photo/2018/06/17/10/38/artist-3480274_960_720.jpg);
+  border-radius: 100px;
+  transition: .3s ease-in-out;
+  background-size: cover;
+  border: 4px solid #f2ddde;
+}
+
+.circle-center {
+  z-index: 1000;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  right: -41%;
+  bottom: -230px;
+  background-image: url(https://cdn.pixabay.com/photo/2019/04/11/14/32/roofs-4119874_960_720.jpg);
+  border-radius: 100px;
+  transition: .3s ease-in-out;
+  background-size: cover;
+  border: 4px solid #f2ddde;
+}  
+
+.circle-right {
+  z-index: 1000;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  right: -67%;
+  bottom: 76px;
+  background-image: url(https://images.unsplash.com/photo-1530649159659-c8beb2992433?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  border-radius: 100px;
+  transition: .3s ease-in-out;
+  background-size: cover;
+  border: 4px solid #f2ddde;
+}
