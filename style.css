@@ -28,30 +28,14 @@ footer {
 {
  float: left;
  position: absolute;
- width: 300px;
- height: 200px;
- border-radius: 50%;
- top: -10px;
+ max-width: 30px;
+ border-radius: 100%;
+ max-height: 20px;
+ top: -2px;
  left: 50px;
- margin: 10px;
+ margin: 4px;
 }
 
-#logo
-{
-  display:inline-block;
-  box-sizing:border-box;
-  width:97px;
-  min-height:36px;
-  margin-left:86px;
-  margin-right:335px;
-  color:white;
-  text-decoration:none;
-  font-size:36px;
-  font-family: 'Snell Roundhand', cursive;
-  color:#010000;
-  padding-top:10px;
-  letter-spacing:2.1px;
-}
 
 .navbar {
   float: right;
